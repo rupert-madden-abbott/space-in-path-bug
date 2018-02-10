@@ -15,7 +15,7 @@ is also no obvious indication that the space in the path was the cause of the is
 
 # Steps to reproduce
 
-* Checkout the example repository 
+* Checkout the [example repository](https://github.com/spring-projects/spring-boot)
   * Note that it depends on the Bootstrap Webjar in pom.xml
   * Note that it attempts to retrieve a valid CSS file from the ServletContext and will throw an
     exception during startup if it is not found in com.github.rupert654.spaceinpathbug.Application.
